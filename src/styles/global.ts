@@ -12,6 +12,7 @@ export default createGlobalStyle`
     background-color: #312e38;
     color: #fff;
     -webkit-font-smoothing: antialiased;
+    font-family: 'Roboto Slab', serif;
   }
 
   border-style, input {
