@@ -21,9 +21,9 @@ const toastTypeVariations = {
 };
 
 export const Container = styled.div`
-  position: absolute !important;
+  position: absolute;
   right: 0;
-  left: 0;
+  top: 0;
   padding: 30px;
   overflow: hidden;
 `;
