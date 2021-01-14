@@ -38,26 +38,26 @@ export const Content = styled.div`
         color: ${shade(0.2, '#f4ede8')};
       }
     }
-    .createAccount {
-      color: #f4ede8;
-      display: block;
-      margin-top: 24px;
-      text-decoration: none;
-      transition: color 0.2s;
+  }
+  .createAccount {
+    color: #f4ede8;
+    display: block;
+    margin-top: 24px;
+    text-decoration: none;
+    transition: color 0.2s;
 
-      display: flex;
-      align-items: center;
+    display: flex;
+    align-items: center;
 
-      align-items: center;
-      place-content: center;
+    align-items: center;
+    place-content: center;
 
-      svg {
-        margin-right: 16px;
-      }
+    svg {
+      margin-right: 16px;
+    }
 
-      &:hover {
-        color: ${shade(0.2, '#f4ede8')};
-      }
+    &:hover {
+      color: ${shade(0.2, '#f4ede8')};
     }
   }
 `;

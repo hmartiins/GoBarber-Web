@@ -4,6 +4,7 @@ import { FormHandles } from '@unform/core';
 import { Form } from '@unform/web';
 import * as Yup from 'yup';
 
+import { Link } from 'react-router-dom';
 import getValidationErrors from '../../utils/getValidationErrors';
 
 import logo from '../../assets/logo.svg';
@@ -57,12 +58,12 @@ const SignUp: React.FC = () => {
           />
 
           <Button type="submit">Cadastrar</Button>
-
-          <a href="login" className="createAccount">
-            <FiArrowLeft />
-            Voltar para logon
-          </a>
         </Form>
+
+        <Link to="/" className="createAccount">
+          <FiArrowLeft />
+          Voltar para logon
+        </Link>
       </Content>
     </Container>
   );
